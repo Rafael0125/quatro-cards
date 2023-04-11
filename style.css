@@ -1,0 +1,103 @@
+/* Formatações Gerais */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins-regular;
+}
+
+body{
+    background-color: #f0f0f0;
+    
+}
+
+/* Formatação de fontes personalizadas */
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url(./fontCustom/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins-thin";
+    src: url(./fontCustom/Poppins-Thin.ttf);
+}
+
+
+
+
+/* Formatação do #titulo */
+#titulo{
+    margin: 2em auto;
+    font-size: 15px;
+    padding: 5px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    max-width: 400px;
+}
+
+#titulo p{
+    margin: 3px 0;
+}
+#titulo p:nth-child(1){
+    font-weight:400;
+    font-size: 26px;
+
+}
+#titulo p:nth-child(2){
+    font-weight: 600;
+    font-size: 28px;
+}
+#titulo p:nth-child(3){
+    font-weight: 200;
+    font-size: 15px;
+}
+
+/* Formatação dos Cartões */
+
+.card{
+    max-width: 400px;
+    box-shadow: 1px 1px 20px #202020;
+}
+
+#cartao1 {
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+#cartao2 {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+#cartao3 {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+#cartao4 {
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/* Media Queries */ 
+
+@media (max-width: 424.98px) { 
+    #titulo p:nth-child(1){
+        font-weight:400;
+        font-size: 24px;
+    
+    }
+    #titulo p:nth-child(2){
+        font-weight: 600;
+        font-size: 24px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
